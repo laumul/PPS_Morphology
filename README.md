@@ -1,7 +1,7 @@
 ## PPS_Morphology
 
 ### data 
-Echinoderm data sets from 
+Echinoderm data sets from Zamora and Smith 2012  
 
 ### scripts 
 - Rev scripts nummberd 1-4, the standard PPS appraoch. 
