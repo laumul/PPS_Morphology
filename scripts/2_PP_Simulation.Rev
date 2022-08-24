@@ -1,0 +1,27 @@
+################################################################################
+#
+# RevBayes Example: Bayesian model testing using posterior predictive simulation
+#
+# authors: Lyndon M. Coghill, Sebastian Hoehna and Jeremy M. Brown
+#
+################################################################################
+
+## POSTERIOR PREDICTIVE DATA SIMULATION
+morpho <- readDiscreteCharacterData("data/Agnolin_2007a_paleobiodb.nex")
+analysis_name = "model_adequacy"
+model_name = "model" # what model are you testing?
+model_file_name = "scripts/"+model_name+"_Model.Rev"
+
+source( model_file_name )
+
+# "Reading Trace"
+trace = readStochasticVariableTrace("output/" + model_name + "/output/" + analysis_name + "_posterior.var", delimiter=TAB)
+
+# "Creating Posterior Predictive Simulation"
+pps = posteriorPredictiveSimulation(mymodel, directory="output/" + model_name + "/output/" + analysis_name + "_post_sims", trace)
+
+# "Running the posterior predictive simulation"
+pps.run(thinning=100)
+
+
+clear()
