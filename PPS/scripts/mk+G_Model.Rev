@@ -1,8 +1,8 @@
 							
 ###################
 #
-#	MkV +G model
-#
+#	Mk +G model 
+##################
 
 
 ## helpers
@@ -32,20 +32,18 @@ moves.append( mvSPR(topology, weight = num_branches / 10.0) )
 
 phylogeny := treeAssembly(topology, bl)
 
-
 ######################
 # Substitution Model #
 ######################
 
 #### specify the Jukes-Cantor substitution model applied uniformly to all sites ###
-Q := fnJC(5) 
+Q := fnJC(int(num_states))
 
 
 ###############################################
 #Gamma-distributed rate variation
 ###############################################
 
-# Set up Gamma-distributed rate variation.
 alpha_inv ~ dnExponential(1)
 alpha_morpho := 1 / alpha_inv
 rates_morpho := fnDiscretizeGamma( alpha_morpho, alpha_morpho, 4 ) 
@@ -60,7 +58,7 @@ moves.append( mvScale(alpha_inv,lambda=1, weight=2.0) )
 
 
 # the sequence evolution model
-seq ~ dnPhyloCTMC(tree=phylogeny, siteRates=rates_morpho, Q=Q, type="Standard",  coding="variable")
+seq ~ dnPhyloCTMC(tree=phylogeny, siteRates=rates_morpho, Q=Q, type="Standard")
 
 # attach the data
 seq.clamp(morpho)

@@ -38,7 +38,7 @@ phylogeny := treeAssembly(topology, bl)
 ######################
 
 #### specify the Jukes-Cantor substitution model applied uniformly to all sites ###
-Q := fnJC(5) 
+Q := fnJC(int(num_states))
 
 
 ###############################################

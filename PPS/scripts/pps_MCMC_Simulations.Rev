@@ -1,0 +1,36 @@
+################################################################################
+#
+# RevBayes Example: Bayesian model testing using posterior predictive simulation
+#
+# authors: Lyndon M. Coghill, Sebastian Hoehna and Jeremy M. Brown
+#
+################################################################################
+
+inFile = "data/Egi_etal_2005a_paleobiodb.nex"
+morpho <- readDiscreteCharacterData(inFile)
+model_name = "mk+GV"
+num_states="5"
+model_file_name = "scripts/"+model_name+"_Model.Rev"
+
+source( model_file_name )
+
+## first we set a counter for our monitors
+
+monitors = VectorMonitors()
+## next we setup our monitors, like in our previous MCMC analyses
+monitors.append( mnModel(filename= "output/" + model_name + "/output/APW-example_posterior.log",printgen=100, separator = TAB))
+monitors.append( mnFile(filename="output/" + model_name + "/output/APW-example_posterior.trees",printgen=100, separator = TAB, phylogeny))
+
+## now we setup our MCMC object for each posterior predictive dataset
+mymcmc = mcmc(mymodel, monitors, moves, nruns=1)
+
+## specify and output directory for each analysis
+directory = "output/" + model_name + "/output/PPS_Morpho_post_sims"
+
+## specify a new pps_mcmc object for all of the independent analyses
+my_pps_mcmc = posteriorPredictiveAnalysis(mymcmc, directory)
+
+## run the actual analyses
+my_pps_mcmc.run(generations=10000)
+
+
