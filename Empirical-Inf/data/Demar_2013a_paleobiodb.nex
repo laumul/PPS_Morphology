@@ -1,0 +1,21 @@
+#NEXUS
+[!File downloaded from graemetlloyd.com]
+BEGIN DATA;
+DIMENSIONS  NTAX=13 NCHAR=23;
+	FORMAT DATATYPE = STANDARD SYMBOLS= " 0 1 2" MISSING=? GAP=- ;
+MATRIX
+Cryptobranchus_alleganiensis_ORIG_Cryptobranchus_alleganiensis  00000000000000000000000
+missing_ORIG_Proteus_anguinus              01001100001110001002201
+missing_ORIG_Necturus_maculosus            010000000(01)1110000001(01)01
+Necturus_krausei_ORIG_Necturus_krausei              ?????????????0000001001
+Paranecturus_garbanii_ORIG_Paranecturus_garbanii         0101????0100000000011?1
+Opisthotriton_kayi_ORIG_Opisthotriton_kayi            10(12)1(01)101(12)(01)0001102000010
+Prodesmodon_copei_ORIG_Prodesmodon_copei             12210101210002102002210
+Scapherpeton_tectum_ORIG_Scapherpeton_tectum           01011010000000002111000
+Lisserpeton_bairdi_ORIG_Lisserpeton_bairdi            01010110000000001111000
+Piceoerpeton_willwoodense_ORIG_Piceoerpeton_willwoodense     1111?000200000001111000
+Piceoerpeton_naylori_ORIG_Piceoerpeton_naylori          1111????200000000?110?0
+Habrosaurus_dilatus_ORIG_Habrosaurus_dilatus           0100????000100010022210
+Proamphiuma_cretacea_ORIG_Proamphiuma_cretacea          10010102000000010022210
+;
+END;

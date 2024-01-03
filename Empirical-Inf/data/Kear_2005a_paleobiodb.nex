@@ -1,0 +1,25 @@
+#NEXUS
+[File downloaded from graemetlloyd.com]
+BEGIN DATA;
+DIMENSIONS  NTAX=17 NCHAR=43;
+	FORMAT DATATYPE = STANDARD SYMBOLS= " 0 1 2" MISSING=? GAP=- ;
+MATRIX
+Plesiosaurus_ORIG_Plesiosaurus      001000000001???110000?00?00?0000000??000000
+Aristonectes_ORIG_Aristonectes      2???????1???0???1?0?1?10100??10112200211111
+Brancasaurus_ORIG_Brancasaurus      00001?110101?0??0?000?00?0????0000??1111001
+Callawayasaurus_ORIG_Callawayasaurus   00011?1111012011010001?110100110000??111101
+Cryptoclidus_ORIG_Cryptoclidus      00000111011010?0100010001000100010010000011
+Dolichorhynchops_ORIG_Dolichorhynchops  1100000101021100121110100021110000011200011
+Eromangasaurus_ORIG_Eromangasaurus    02??0?011100??11020001000110011001011111001
+Kimmerosaurus_ORIG_Kimmerosaurus     200?0?11??1?00?01001?01??00011011221?200011
+Libonectes_ORIG_Libonectes        02?1??11110?2011020001??101001100001?111101
+Microcleidus_ORIG_Microcleidus      000?1?11??01?????0000?00101001000??0?101000
+Muraenosaurus_ORIG_Muraenosaurus     0000001101???0??100010001000100000010111011
+duplicate_ORIG_Occitanosaurus    00?001210100??1?00000100??????0000011111001
+Styxosaurus_ORIG_Styxosaurus       02010??11101???10??0???1?011011000???111101
+Terminonatator_ORIG_Terminonatator    020???21???1???10??????010101110010??111001
+Tricleidus_ORIG_Tricleidus        00??0001?1101100100110101000?10000?1?000011
+Trinacromerum_ORIG_Trinacromerum     110000?10102110?12111010?021110000011200011
+Tuarangisaurus_ORIG_Tuarangisaurus    0?????21?1??????0200?100?00????000011111001
+;
+END;

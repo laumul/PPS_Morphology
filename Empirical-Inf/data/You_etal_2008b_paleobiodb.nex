@@ -1,0 +1,22 @@
+#NEXUS
+[!File downloaded from graemetlloyd.com]
+BEGIN DATA;
+DIMENSIONS  NTAX=14 NCHAR=31;
+	FORMAT DATATYPE = STANDARD SYMBOLS= " 0 1" MISSING=? GAP=- ;
+MATRIX
+Heterodontosaurus_tucki_ORIG_Heterodontosaurus_tucki  0000000000000001000000010000000
+Hypsilophodon_foxii_ORIG_Hypsilophodon_foxii      0000000000000000000100000001000
+Protoceratops_andrewsi_ORIG_Protoceratops_andrewsi   0001001000111001010101110000000
+Psittacosaurus_mongoliensis_ORIG_P_mongoliensis          1001111110011100110011101011011
+Psittacosaurus_sinensis_ORIG_P_sinensis              1111111111010011111100000000110
+Psittacosaurus_meileyingensis_ORIG_P_meileyingensis        11011111100101001110111110?00?0
+Psittacosaurus_xinjiangensis_ORIG_P_xinjiangensis         ???????????10101110??01011?10??
+Psittacosaurus_neimongoliensis_ORIG_P_neimongoliensis       1101111110110000010110??0011001
+duplicate_ORIG_P_ordosensis            11?111111?01?0?1?100?11?00????1
+Psittacosaurus_ORIG_P_mazongshanensis       10011111?0?11101?10?111101??0??
+Psittacosaurus_sibiricus_ORIG_P_sibiricus             1011111111110011111101001001001
+duplicate_ORIG_Psittacosaurus_sp       ????1?11???10??1?10??1?000?1010
+Psittacosaurus_lujiatunensis_ORIG_P_lujiatunensis         10111111101101010111111101?????
+Psittacosaurus_major_ORIG_P_major                 1101111110110001010111111??????
+;
+END;

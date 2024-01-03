@@ -1,0 +1,62 @@
+#NEXUS
+[!File downloaded from graemetlloyd.com]
+BEGIN DATA;
+DIMENSIONS  NTAX=54 NCHAR=86;
+	FORMAT DATATYPE = STANDARD SYMBOLS= " 0 1 2 3" MISSING=? GAP=- ;
+MATRIX
+Konzhukovia_vetusta_ORIG_Konzhukovia_vetusta                       01100100(01)0000000000100000000000000000000000?0?01001202100010000000001200000???????????
+Rhineceps_nyasaensis_ORIG_Rhineceps_nyasaensis                      0000001001000000000000000000000001000010000000000000?2000000000000000000000000??010000
+no_age_data_ORIG_Uranocentrodon_senekalensis               000000000000000000000000000000000100001000?00???0000??000000??0000000000000?00??00000?
+no_age_data_ORIG_Almasaurus_habbazi                        101011000210100001111011010?01100301201000011?0102020110021011020001112011011101101001
+Angusaurus_ORIG_Angusaurus                                011101?110100000000110111100011013011000?00?1?110202??20?200010010111000000?11??10111?
+Aphaneramma_rostratum_ORIG_Aphaneramma_rostratum                     011221?1(01)0101100010110101100010013012001?0001?111?02?2201100010010111120000?01??10101?
+Rewana_myriadens_ORIG_Arcadia_myriadens                         100?1?0000101010001?00111000011111010101?000??201?01??00?2?01102000?2120001100??1?0?00
+Benthosuchus_sushkini_ORIG_Benthosuchus_sushkini                     0111211110010000000010111101010011011010000011110201?020211001000001000000001101100000
+Koskinonodon_perfectus_ORIG_Koskinonodon_perfectus                    000010000(02)001000011100111101011013?1201010011?11000211100210111210002100110101??101111
+Cherninia_denwai_ORIG_Cherninia_denwai                          0100200011010000100200020001110012011010?01?111100022210(12)110010100000110011???????????
+Chomatobatrachus_halei_ORIG_Chomatobatrachus_halei                    100010000000000000110001010??110?(01)01000??00?00000101?0001110110000000000000000??00000?
+Compsocerops_cosgriffi_ORIG_Compsocerops_cosgriffi                    020010000000101000101001000101101101200??0011?010021?1010210112200002120110001??000011
+Cosgriffius_campi_ORIG_Cosgriffius_campi                         01122001(01)010011001011?11?1???????3???????????0111?00??200110??????111?????0???????????
+Cyclotosaurus_robustus_ORIG_Cyclotosaurus_robustus                    0000200001000000100200020(01)01310011012210?01101010101?000211001011110121011010?11111000
+Deltacephalus_whitei_ORIG_Deltacephalus_whitei                      00001000000000000000000100010111110?110??00?0???????????(12)1100100000?00000?(01)???????????
+Deltasaurus_kimberleyensis_ORIG_Deltasaurus_kimberleyensis                120010000210101000210011101??12011011001???0??201?21?00001011102000002201001000001010?
+Edingerella_madagascariensis_ORIG_Edingerella_madagascariensis              0000(01)00100010000100001(01)20001010(01)11011110000001010101?00001000100000000(01)101101110110000
+Eocyclotosaurus_ORIG_Eocyclotosaurus                           01102(01)(01)(01)01010000000200(01)2010131001101101??00?1111000202202110010111110210111011??111001
+Eryosuchus_tverdochlebovi_ORIG_Eryosuchus_garjainovi                     000000010001000010000?12010121001101101??00?011100?1?20?211?01011000?2?01?0???????????
+Gerrothorax_pulcherrimus_ORIG_Gerrothorax_pustuloglomeratus             22001000(01)200000010100011101??120?211210001001?0?0000??000210111200012020101110??100?01
+Keratobrachyops_australis_ORIG_Keratobrachyops_australis                 000011?0000000100011?0010000011?11012000?00???010021?000?101112200002020000100??10?0?1
+Laidleria_gracilis_ORIG_Laidleria_gracilis                        101111000210001010(01)1?011001??120?111200111011?01??2????002?0111200002020011??????0????
+Lapillopsis_nana_ORIG_Lapillopsis_nana                          1100100100100000101000?002000101110?1001000000011?21?20102?1010000002000010?0?00000001
+Lydekkerina_huxleyi_ORIG_Lydekkerina_huxleyi                       10001000000000000010?0010000011111011100000000000101?000110001000000200000000000000000
+Lyrocephaliscus_euri_ORIG_Lyrocephaliscus_euri                      0010100100101000001110101100011010011001?00?1?011?0202101200010110111020000???????????
+Mastodonsaurus_giganteus_ORIG_Mastodonsaurus_giganteus                  01001000000000001000001201011100100120100010101100021210211001011000001011101101111101
+no_age_data_ORIG_Metoposaurus_diagnosticus_krasiejowensis  000010001000100000110001010101101301201011011?010002121002101121000021(02)011110100111010
+Odenwaldia_heidelbergensis_ORIG_Odenwaldia_heidelbergensis                011021?00(01)01000?010?00?2?101210011????????????????????????????0??0????????????????????
+Paracyclotosaurus_davidi_ORIG_Paracyclotosaurus_davidi                  0100210001010000100200020001210010011010?0110?110002??102110010110002210111??1??11000?
+Parotosuchus_orenburgensis_ORIG_Parotosuchus_orenburgensis                0100200101010000100000120001010011011110001101110001?110111001010000101101111111110000
+Platystega_depressa_ORIG_Platystega_depressa                       01110100(01)0101000012110????0??1??10????0???????011?0212201200010?10101120000???????????
+Quasicyclotosaurus_campi_ORIG_Quasicyclotosaurus_campi                  010120010001000000000012010?310011?1201???0?0?01000221001110010101100110111???????????
+Sclerothorax_hypselonotus_ORIG_Sclerothorax_hypselonotus                 0000100101100000100000000201011012011010?0000??1???????111??0?01000022?10100??0011100?
+Eryosuchus_pronus_ORIG_Stanocephalosaurus_pronus                 0100201101010000100200(01)(12)0001210011011010101011110001?010(12)11001010100121011111111110000
+Stenotosaurus_stantonensis_ORIG_Stenotosaurus_stantonensis                01002011010100001(01)0200020001310011011110?01?0?1100?1?2100110010101000010011???????????
+Tatrasuchus_wildi_ORIG_Tatrasuchus_wildi                         0000000101000000100000020001210011011010?01101010001?(01)000110010101002110010?11??111100
+Tertrema_acuta_ORIG_Tertrema_acuta                            011111?10010100001011011?1000?0?0301020??00?1?211?221220?20001?2101011200?0???????????
+missing_ORIG_Thoosuchus_yakovlevi                      0111010110100000000110111100110010011200?00?1001020202201200010000111001000?11??101111
+Trematolestes_hagdorni_ORIG_Trematolestes_hagdorni                    011011000210000101011011100001100301100??0001?111?221220020001021011112010000???00111?
+no_age_data_ORIG_Trematosaurus_brauni                      0111110110101000000110111100011013011201?0001?011?0211201210010010111120000?11??101111
+Wantzosaurus_elongatus_ORIG_Wantzosaurus_elongatus                    01122101(01)01001100101?011100001100101120??0001?111?22102001100100101010200000???0??1?1?
+Warrenisuchus_aliciae_ORIG_Warrenisuchus_aliciae                     010000110(01)010000100001020001010011010010?00000010101?00002100101000?001101101110110000
+Watsonisuchus_gunganj_ORIG_Watsonisuchus_gunganj                     010?????0(01)01000?1002010?020101001101111000000?????01???0(12)?100101000?1011011???10????0?
+Kestrosaurus_dreyeri_ORIG_Watsonisuchus_magnus                      0?????????010???10??010?0201010?110111101000????????????(12)1?0?10100???21001????10?100?0
+Watsonisuchus_rewanensis_ORIG_Watsonisuchus_rewanensis                  010000??0(01)0100001002010?0201?10011011110?00?01210201?0101110010000001210011???10??????
+Wellesaurus_peabodyi_ORIG_Wellesaurus_peabodyi                      0100211001000000100200020001210011012010101?1111???1?21?21??010110000110111111??11000?
+no_age_data_ORIG_Wetlugasaurus_angustifrons                010000?101010000000000020(01)01010011011010001?012101?1?010111?010100000011001011111100??
+Xenobrachyops_allos_ORIG_Xenobrachyops_allos                       020010001200101000110001001??120?1112000?00???011?21?1?002001122000000200101?????0???2
+Xenotosuchus_africanus_ORIG_Xenotosuchus_africanus                    0100200001000000100000020001210011011010100011110101?2102110010(01)0100201001110111110000
+Yuanansuchus_laticeps_ORIG_Yuanansuchus_laticeps                     0?0????10(01)01000000000012(01)10111011001?21010??0?0?000????02110?10001002010011???????????
+missing_ORIG_MSNM_V2993                                ?????????21000????????????????????????????????(01)11?120(12)20020001????012????0(01)???????????
+missing_ORIG_Lehman_specimen                           0??1?1?00????0?????????1?(01)?????????????????????11??20120??????????????????(01)???????????
+duplicate_ORIG_Trematosaurus_madagascariensis            01111100021000010111101(12)1000011003011000?001???????????????0????????????????????????1?
+Tertremoides_madagascariensis_ORIG_Tertremoides_ambilobensis                 011111000210000?0??11011100001100?????00??????????????????????????????????????????????
+;
+END;

@@ -1,0 +1,36 @@
+#NEXUS
+[File downloaded from graemetlloyd.com]
+BEGIN DATA;
+DIMENSIONS  NTAX=28 NCHAR=46;
+	FORMAT DATATYPE = STANDARD SYMBOLS= " 0 1 2 3" MISSING=? GAP=- ;
+MATRIX
+missing_ORIG_Outgroup                     000000000?000000000000000000000000000000000000
+Prohesperocyon_wilsoni_ORIG_Prohesperocyon_wilsoni       100000110011000000000000??00310000100000110001
+Hesperocyon_gregarius_ORIG_Hesperocyon_gregarius        0000001101110000000000000000010101100100010000
+Archaeocyon_pavidus_ORIG_Hesperocyon_pavidus          0???????????????????0000??00010101100100010000
+Hesperocyon_coloradensis_ORIG_Hesperocyon_coloradensis     0000001101110100000000000000010101100100010000
+Mesocyon_temnodon_ORIG_Mesocyon_temnodon            0000000101110200000000000000010101100100010000
+Mesocyon_brachyops_ORIG_Mesocyon_brachyops           00000101011102100010?0000000010101100100010000
+Mesocyon_coryphaeus_ORIG_Mesocyon_coryphaeus          0000010111110210000000000000010101100100010000
+Cynodesmus_thooides_ORIG_Cynodesmus_thooides          0000010101110220000000000000010101100102010000
+Cynodesmus_martini_ORIG_Cynodesmus_martini           0010010101110220000??0?00001110101100102010000
+Sunkahetanka_geringensis_ORIG_Sunkahetanka_geringensis     0000010101110210000000000000110101100100011000
+Philotrox_condoni_ORIG_Philotrox_condoni            0010010111110210010000000000110101100100011000
+Enhydrocyon_pahinsintewakpa_ORIG_Enhydrocyon_pahinsintewakpa  0110010101111211020000001101110102110000012000
+Enhydrocyon_crassidens_ORIG_Enhydrocyon_crassidens       0110000101112211020000001101110102111001013000
+Enhydrocyon_stenocephalus_ORIG_Enhydrocyon_stenocephalus    0110000111111211020000001101110102110001013000
+Enhydrocyon_basilatus_ORIG_Enhydrocyon_basilatus        011000011111121202000000??01210102110001013000
+Osbornodon_renjiei_ORIG_Osbornodon_renjiei           0000000101110200000000000000010101100110010010
+Osbornodon_sesnoni_ORIG_Osborndon_sesnoni            00000????????????????0???000310101100110010010
+Osbornodon_iamonensis_ORIG_Osbornodon_iamonensis        1001100121110210130020000000310111100120010010
+Osbornodon_brachypus_ORIG_Osbornodon_brachypus         100110012111021023102101?000310111100120010010
+Osbornodon_fricki_ORIG_Osbornodon_fricki            1002100121110210231020000000310121101120010010
+Paraenhydrocyon_josephi_ORIG_Paraenhydrocyon_josephi      0000000101110001000101000000010101100100010000
+Paraenhydrocyon_robustus_ORIG_Paraenhydrocyon_robustus     ?????????????????????1?????0300101100100011000
+Paraenhydrocyon_wallovianus_ORIG_Paraenhydrocyon_wallovianus  000000010111?001000121??0000300101110100013000
+Caedocyon_tedfordi_ORIG_Caedocyon_tedfordi           00010???????????????????021010010110010101????
+Ectopocynus_antiquus_ORIG_Ectopocynus_antiquus         ???????????????????00000???1101?01?????0010000
+Ectopocynus_intermedius_ORIG_Ectopocynus_intermedius      ?????????????????????000???1101102100101011000
+Ectopocynus_simplicidens_ORIG_Ectopocynus_simplicidens     ???????????????????01010???1101?02?????1012100
+;
+END;

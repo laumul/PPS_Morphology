@@ -1,0 +1,31 @@
+#NEXUS
+[!File downloaded from graemetlloyd.com]
+BEGIN DATA;
+DIMENSIONS  NTAX=23 NCHAR=40;
+	FORMAT DATATYPE = STANDARD SYMBOLS= " 0 1 2 3 4" MISSING=? GAP=- ;
+MATRIX
+Patranomodon_ORIG_Patranomodon             ?0000000?0000?0000000000000?1?0000000??0
+no_age_data_ORIG_Otsheria                 ?0000000??11??????000000?21????0000?0??0
+Eodicynodon_ORIG_Eodicynodon              0200010100000010330011100000000110100000
+Robertia_ORIG_Robertia                 0211021101100020110011100000100111101110
+Diictodon_ORIG_Diictodon                0213?21102111020110111100000100111111110
+Endothiodon_ORIG_Endothiodon              ?112100221100?0122041220010?1001?0211000
+Brachyprosopus_ORIG_Chelydontops             02111101211100111100122001001??11?1?1??0
+Pristerodon_ORIG_Pristerodon              0211011121100011310012100010100111221000
+Emydops_ORIG_Emydops                  121101011111110133001210001010?0111?11?0
+Dicynodontoides_ORIG_Kingoria                 1213?102?211010033011?100000111110111?00
+Cistecephalus_ORIG_Cistecephalus            1213?10212111101330012111010022031101110
+Myosaurus_ORIG_Myosaurus                1213?102121111003300100110101??0?01?1??0
+Tropidostoma_ORIG_Tropidostoma             02110122211100311101132000111111211?1000
+Oudenodon_ORIG_Oudenodon                0213?12222111031110113200011111121121000
+Rhachiocephalus_ORIG_Rhachiocephalus          0213?12222111031110313200111111111121000
+Pelanomodon_ORIG_Pelanomodon              0213?1022?1110????1213200011???1211?1??1
+Aulacephalodon_ORIG_Aulacephalodon           0213?12222110031111213200110111111121001
+Dicynodon_ORIG_Dicynodon                0213?12222111031111314200010111101121000
+Lystrosaurus_ORIG_Lystrosaurus             0213?12222111031141014200000111101131001
+Kannemeyeria_ORIG_Kannemeyeria             0213?12222111031141414300010111101131000
+Odontocyclops_ORIG_Odontocyclops            0213?1222211103111011320001111?10?1?1000
+Dicynodon_lacerticeps_ORIG_Dicynodon_lacerticeps    0213?122221110311113142000101??1011?1??0
+Lanthanostegus_mohoii_ORIG_Lanthanocephalus_mohoii  ???(012)??????0???????02???001??????102?1??0
+;
+END;

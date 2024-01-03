@@ -1,0 +1,35 @@
+#NEXUS
+[File downloaded from graemetlloyd.com]
+BEGIN DATA;
+DIMENSIONS  NTAX=27 NCHAR=65;
+	FORMAT DATATYPE = STANDARD SYMBOLS= " 0 1 2 3" MISSING=? GAP=- ;
+MATRIX
+no_age_data_ORIG_Archetypomys_erlianensis       ??000000000000000000000000000000100000000(01)000(01)000??0000?000000000
+Cocomys_lingchaensis_ORIG_Cocomys_lingchaensis           000(01)0000000(01)010000101000000000002000100000000(01)0(01)0??0100?0(01)000010(01)
+Paramys_delicatus_ORIG_Paramys_delicatus              0000100000010100(01)010100(01)000000(01)0(01)00000000(01)00(01)(12)010??01000(01)0000(01)110
+Knightomys_minor_ORIG_Knightomys_minor               00001100000(12)01(01)00021200001010(01)00(01)101(12)00(01)10011(12)010??(01)100?0(01)0000(12)10
+Prolapsus_sibilatoris_ORIG_Prolapsus_sibilatoris          0000110000010100002120(01)00(01)010(01)0011?110(01)000(01)(01)(12)1010??1100(01)010000(12)(12)0
+Armintomys_tullbergi_ORIG_Armintomys_tullbergi           100(01)?000(01)002010000222000000201???????????????????????????????????
+Elymys_complexus_ORIG_Elymys_complexus               ??110100000(12)21(01)(13)0012(23)0(01)00(01)(13)(12)0100(01)10(01)(12)1010100(12)(12)02(01)0011(01)(01)(01)0(01)0010(12)11
+Aksyiromys_dalos_ORIG_Aksyiromys_dalos               ??110100000(12)011000213000010101???????10?1000(12)1(01)11001100001000????
+Primisminthus_yuenus_ORIG_Primisminthus_yuenus           ??110100000201100021300001010(01)00(01)101110110012(12)0110011000010000211
+Allosminthus_uniconjugatus_ORIG_Banyuesminthus_uniconjugatus   ??110(01)0(01)000(12)0110002230000(01)1(12)1100010111(01)10(01)(01)(01)(12)(12)0210010000010000(12)11
+Simimys_simplex_ORIG_Simimys_simplex                111(12)0(01)000(01)(01)12103002230?000320100(12)1011101101121011011101111(01)011201
+Nonomys_simplicidens_ORIG_Nonomys_simplicidens           111200000122010320?1200(12)00310(01)???????111(01)(01)00(01)1011(12)100100100101001
+Pappocricetodon_antiquus_ORIG_Pappocricetodon_antiquus       10110010111(12)210(12)001231(01)000(12)2110021311101(01)1112(12)(01)(12)100110001010(01)1120
+Pappocricetodon_kazakstanicus_ORIG_Pappocricetodon_kazakstanicus  ??110010111(12)2103001231(01)00032(01)1???????1??1111210(12)10011000?????????
+Pappocricetodon_schaubi_ORIG_Pappocricetodon_schaubi        1012?0101122210(23)0(12)1231(01)0(01)0(23)2110021211101(01)1112(12)0(12)100100(01)0101(01)11120
+Pappocricetodon_rencunensis_ORIG_Pappocricetodon_rencunensis    ??12?020012221(01)(23)0(12)1231(01)0(01)0(23)2110021311101(01)1112(12)(01)(12)100100001(01)1(01)11(12)20
+Palasiomys_conulus_ORIG_Palasiomys_conulus             ??11?0(01)00(01)(01)(12)21(01)200123100010111001111110111012(12)01100110001100(01)1120
+Palasiomys_trapezius_ORIG_Raricricetodon_trapezius       ??11?0(01)00(01)(01)2010(01)00(12)2310001011100010111??????????1????????????????
+Raricricetodon_zhongtiaensis_ORIG_Raricricetodon_zhongtiaensis   ??12?0101122(01)1030(01)1231??????110021311101(01)1(01)12(12)0(12)10011000101(01)(01)1120
+Palasiomys_minor_ORIG_Raricricetodon_minor           ??12?000011201030(01)22310001011100213111??????????1????????????????
+Witenia_flava_ORIG_Witenia_flava                  ??12?020(01)122(12)203(01)(12)(12)23100103211012031210(01)01(12)12(12)02101110001010(01)1120
+Oxynocricetodon_leptaleos_ORIG_Oxynocricetodon_leptaleos      ??12?01(01)01321(12)03(01)(12)123100(01)0(23)2110021(01)121(01)111102(12)0211010(01)(01)0101(01)11121
+Oxynocricetodon_erenensis_ORIG_Oxynocricetodon_erenensis      ??12?0(01)(01)11321(12)030012310010321100213121?(01)111(01)2(12)0(12)1???????101(01)11121
+Eocricetodon_meridionalis_ORIG_Eocricetodon_meridionalis      ??12?01001322(12)0322123100(01)032110021(03)1211111102(12)0211(01)10(01)(01)0101(01)11121
+Eocricetodon_borealis_ORIG_Eocricetodon_borealis          ??12?01(01)013(12)2(12)0322123100103211???????11?111(01)2(12)0(12)110110(01)010101????
+Atavocricetodon_atavus_ORIG_Atavocricetodon_atavus         2012?0(01)11132(12)2032212310010(23)21100211121110110221212110(01)(01)01(01)1(01)01121
+Eucricetodon_Atavocricetodon_kurthi_ORIG_Atavocricetodon_kurthi         ??12?0(12)(01)11321203221231001032110021(01)12111011022(01)211(01)10(01)10111111(12)11
+;
+END;
