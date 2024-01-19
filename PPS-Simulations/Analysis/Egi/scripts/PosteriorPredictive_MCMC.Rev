@@ -1,0 +1,41 @@
+################################################################################
+#
+# RevBayes Example: Bayesian model testing using posterior predictive simulation
+#
+# authors: Lyndon M. Coghill, Sebastian Hoehna and Jeremy M. Brown
+#
+################################################################################
+
+PP_files=listFiles(out + "/" + model_name + "/" + runID + "/output_" + model_name + "/" + analysis_name + "_post_sims")
+
+-->
+for (i in 1:PP_files.size()){
+	
+}
+
+inFile = out + "/" + model_name + "/" + runID + "/output_" + model_name + "/" + analysis_name + "_post_sims/posterior_predictive_sim_" + i + "/seq.nex"
+analysis_name = "pps_Nov"
+morpho <- readDiscreteCharacterData(inFile)
+model_name = model
+model_file_name = "scripts/"+model_name+"_Model.Rev"
+
+source( model_file_name )
+
+## first we set a counter for our monitors
+monitors = VectorMonitors()
+
+## next we setup our monitors, like in our previous MCMC analyses
+monitors.append( mnModel(filename= out + "/" + model_name + "/" + runID + "/output_" + model_name + "/" + posterior_predictive_sim_" + i + "/" + analysis_name + "_posterior.log",printgen=100, separator = TAB))
+monitors.append( mnFile(filename=out + "/" + model_name + "/" + runID + "/output_"  + model_name + "/" + posterior_predictive_sim_" + i + "/" + analysis_name + "_posterior.trees",printgen=100, separator = TAB, phylogeny))
+monitors.append( mnScreen(printgen=1000, tree_length) )
+
+
+mymcmc = mcmc(mymodel, monitors, moves, nruns=2, combine="mixed")
+mymcmc.burnin(generations=200,tuningInterval=200)
+mymcmc.run(generations= 10000 ,tuningInterval=200)
+
+
+clear()
+
+
+
