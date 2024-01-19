@@ -1,0 +1,33 @@
+#NEXUS
+[!File downloaded from graemetlloyd.com]
+BEGIN DATA;
+DIMENSIONS  NTAX=25 NCHAR=70;
+	FORMAT DATATYPE = STANDARD SYMBOLS= " 0 1 2 3" MISSING=? GAP=- ;
+MATRIX
+Dendrerpeton_acadianum_ORIG_Dendrerpeton_acadianum                       0000000000000000000001000000000000000100000000000000000000000000000000
+Sclerocephalus_haeuseri_ORIG_Sclerocephalus_haeuseri                      0000000000000000000000001010000000010000000000000000000100000000000010
+Micromelerpeton_credneri_ORIG_Micromelerpeton_credneri                     1?1000011010?1000000101100000100000??001000000000011000100000000000010
+Platyrhinops_lyelli_ORIG_Platyrhinops_lyelli                          1100100010111110110001?1000011101000?000000000000001100100000000001110
+Doleserpeton_annectens_ORIG_Doleserpeton_annectens                       1110110010111110110010110000111011000001000100000011100100000000001110
+Acheloma_cumminsi_ORIG_Acheloma_cumminsi                            3110000000001101011110010011111110100011111111000000200100010000001010
+Phonerpeton_pricei_ORIG_Phonerpeton_pricei                           1111?0000000111101111001001111111010001111010100100110110001000000?010
+Anconastes_vesperus_ORIG_Anconastes_vesperus                          21?000????0011010111100100011111?0?0?0101101010100111001000?000000???0
+Fedexia_striegeli_ORIG_Fedexia_striegeli                            11????????00??01011110010001111????0??1000000?0000111001000?000000???0
+Tambachia_trogallas_ORIG_Tambachia_trogallas                          11?000?00000110100111001000111101010?01011010101001110010001000000???0
+Ecolsonia_cutlerensis_ORIG_Ecolsonia_cutlerensis                        211000?00000110101111001000111111010?110000021011011100100010000001010
+Aspidosaurus_binasser_ORIG_Aspidosaurus_binasser                        1??1?0001?00?10??11?10??0?01??101??0??0?0?0?0?00?????1?1120?000000???0
+Platyhystrix_rugosus_ORIG_Platyhystrix_rugosus                         ???1?0??1000?101011110??010?1000?0?0?0??0?0?0?00?001?101000?000000????
+Dissorophus_multicinctus_ORIG_Dissorophus_multicinctus                     11?1?0??11011101011111?10?011000?010020000000000?011110111111001111110
+Broiliellus_texensis_ORIG_Broiliellus_texensis                         11?1?0??11011101011111?10?011010?010?10000000?00001111011111101011?111
+Broiliellus_brevis_ORIG_Broiliellus_brevis                           1111?01011011101011111110?0111?01010?0000?000?00011111011?11101111?111
+Broiliellus_olsoni_ORIG_Broiliellus_olsoni                           11??????????1101?11111?10?011?0??????2000?0?0?00?0111?01??1????0?1???1
+Brevidorsum_profundum_ORIG_Brevidorsum_profundum                        11???????????10111111?1101??110??????10???0?0?0?10?11?01??1?0?00?0?110
+Conjunctio_multidens_ORIG_Conjunctio_multidens                         11?1?0????00?101011111?10?0?1?????1??100??0?0?0??01111011?1?0?00?0???0
+Scapanops_neglecta_ORIG_Scapanops_neglecta                           11???????????111111111?10101111??????2010?0?0?00?0012?011?1?0?00?1?110
+Aspidosaurus_novomexicanus_ORIG_Rio_Arriba_Taxon_Aspidosaurus_novomexicanus  11?1?0?01100?101111110?101011110?01??2010?0?0?0011111?111?1?000000???0
+Cacops_morrisi_ORIG_Cacops_morrisi                               1111?00011001101111110110101111000101001000020101101211112110100002110
+Cacops_aspidephorus_ORIG_Cacops_apidephorus                           1111?0?011001101111110?101011110?010?0010?0?2?10110121?112110?00002110
+Kamacops_acervalis_ORIG_Kamacops_acervalis                           ?111?00011001101?11110?10?011??0?01010000?0?2010110021????1?010000???0
+Zygosaurus_lucius_ORIG_Zygosaurus_lucius                            ?????????????????11?????0?0??????????00???0?2?1???00?????????????0???0
+;
+END;
